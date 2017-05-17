@@ -20,7 +20,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012160439120}
   - 114: {fileID: 114000011365822250}
-  - 114: {fileID: 114000010886265526}
+  - 114: {fileID: 114000010953060472}
+  - 114: {fileID: 114000011429704864}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -41,7 +42,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010886265526
+--- !u!114 &114000010953060472
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -49,14 +50,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013481812936}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09cf73e5ab70f4048b5c65dc1f5679e9, type: 3}
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxBots: 7
-  prefabs:
-  - {fileID: 1000013172141970, guid: 5f4af36db6797b24bbb16b8aada3e087, type: 2}
-  - {fileID: 1000013952619036, guid: 7c5bc23e033f3ec4982442db246e19c9, type: 2}
-  - {fileID: 1000011908511644, guid: 8be7517548c45f04e94cf617523cc394, type: 2}
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 208
+    i1: 200
+    i2: 2
+    i3: 244
+    i4: 30
+    i5: 194
+    i6: 98
+    i7: 36
+    i8: 41
+    i9: 37
+    i10: 232
+    i11: 228
+    i12: 74
+    i13: 255
+    i14: 166
+    i15: 199
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000011365822250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,3 +102,19 @@ MonoBehaviour:
     spawn: {fileID: 0}
   maxScore: 30
   respawnTime: 8
+--- !u!114 &114000011429704864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013481812936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09cf73e5ab70f4048b5c65dc1f5679e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxBots: 7
+  prefabs:
+  - {fileID: 1000013172141970, guid: 5f4af36db6797b24bbb16b8aada3e087, type: 2}
+  - {fileID: 1000013952619036, guid: 7c5bc23e033f3ec4982442db246e19c9, type: 2}
+  - {fileID: 1000011908511644, guid: 8be7517548c45f04e94cf617523cc394, type: 2}

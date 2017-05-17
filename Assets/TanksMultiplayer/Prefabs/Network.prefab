@@ -16,11 +16,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000011035491754}
-  - 114: {fileID: 114000013451759968}
-  - 114: {fileID: 114000012352245564}
+  - component: {fileID: 4000011035491754}
+  - component: {fileID: 114000010400823456}
+  - component: {fileID: 114000013451759968}
+  - component: {fileID: 114000012352245564}
+  - component: {fileID: 114000012392991618}
   m_Layer: 0
   m_Name: Network
   m_TagString: Untagged
@@ -37,10 +39,25 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010400823456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013459717394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 227461547, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  showGUI: 0
+  offsetX: 0
+  offsetY: 0
 --- !u!114 &114000012352245564
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,7 +88,7 @@ MonoBehaviour:
   - {fileID: 112386, guid: c514d17be449d9d41b4be00bf058808f, type: 2}
   - {fileID: 112386, guid: ca0d3e14cb38bae49acdad33ebcf4570, type: 2}
   m_CustomConfig: 0
-  m_MaxConnections: 4
+  m_MaxConnections: 12
   m_ConnectionConfig:
     m_PacketSize: 1500
     m_FragmentSize: 500
@@ -99,7 +116,7 @@ MonoBehaviour:
     m_ReactorMaximumReceivedMessages: 1024
     m_ReactorMaximumSentMessages: 1024
     m_MaxPacketSize: 2000
-  m_Channels: 
+  m_Channels: 0500000000000000
   m_UseWebSockets: 0
   m_UseSimulator: 0
   m_SimulatedLatency: 1
@@ -112,6 +129,27 @@ MonoBehaviour:
   matchSize: 12
   isNetworkActive: 0
   matchMaker: {fileID: 0}
+--- !u!114 &114000012392991618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013459717394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b146db4bc9173ba4dbe774b5a308db0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BroadcastPort: 47777
+  m_BroadcastKey: 2222
+  m_BroadcastVersion: 1
+  m_BroadcastSubVersion: 1
+  m_BroadcastInterval: 1000
+  m_UseNetworkManager: 1
+  m_BroadcastData: HELLO
+  m_ShowGUI: 0
+  m_OffsetX: 0
+  m_OffsetY: 300
 --- !u!114 &114000013451759968
 MonoBehaviour:
   m_ObjectHideFlags: 1

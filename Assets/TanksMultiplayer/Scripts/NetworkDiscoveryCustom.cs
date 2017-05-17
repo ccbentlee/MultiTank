@@ -3,15 +3,22 @@
  * 	You shall not license, sublicense, sell, resell, transfer, assign, distribute or
  * 	otherwise make available to any third party the Service or the Content. */
 
-using UnityEngine;
+using UnityEngine.Networking;
 
 namespace TanksMP
 {
     /// <summary>
-    /// Custom implementation of the NetworkMigrationManager class.
-    /// Not needed when using Photon Networking.
+    /// Custom implementation of the Unity Networking NetworkDiscovery class.
+    /// This script auto-joins matches found in the local area network on discovery.
     /// </summary>
-	public class NetworkDiscoveryCustom : MonoBehaviour
+	public class NetworkDiscoveryCustom : NetworkDiscovery
     {
+        public override void OnReceivedBroadcast(string fromAddress, string data)
+        {
+            StopBroadcast();
+
+            NetworkManagerCustom.singleton.networkAddress = fromAddress;
+            NetworkManagerCustom.singleton.StartClient();
+        }
     }
 }

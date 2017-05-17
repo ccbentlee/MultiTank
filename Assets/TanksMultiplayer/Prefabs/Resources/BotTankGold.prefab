@@ -220,6 +220,7 @@ GameObject:
   - 4: {fileID: 4000012384437678}
   - 54: {fileID: 54000010878220628}
   - 65: {fileID: 65000013986321386}
+  - 114: {fileID: 114000013437079708}
   - 114: {fileID: 114000012643057636}
   - 195: {fileID: 195000010447933354}
   m_Layer: 8
@@ -452,7 +453,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011908511644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -12.567244, y: 79.96875, z: -39.445152}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -942,6 +943,38 @@ MonoBehaviour:
   killedBy: {fileID: 0}
   camFollow: {fileID: 0}
   range: 6
+--- !u!114 &114000013437079708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011908511644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 139
+    i1: 231
+    i2: 81
+    i3: 117
+    i4: 72
+    i5: 196
+    i6: 95
+    i7: 4
+    i8: 233
+    i9: 76
+    i10: 246
+    i11: 23
+    i12: 82
+    i13: 60
+    i14: 195
+    i15: 148
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000013948907048
 MonoBehaviour:
   m_ObjectHideFlags: 1

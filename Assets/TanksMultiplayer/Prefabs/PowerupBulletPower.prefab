@@ -23,6 +23,7 @@ GameObject:
   - 54: {fileID: 54000011390207216}
   - 114: {fileID: 114000011555951312}
   - 95: {fileID: 95000013323926802}
+  - 114: {fileID: 114000013182934972}
   m_Layer: 2
   m_Name: PowerupBulletPower
   m_TagString: Untagged
@@ -256,6 +257,38 @@ MonoBehaviour:
   useClip: {fileID: 8300000, guid: 30cbc4f0e846df04d9c25940ff239106, type: 3}
   amount: 3
   bulletIndex: 1
+--- !u!114 &114000013182934972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010293127126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 115
+    i1: 211
+    i2: 6
+    i3: 158
+    i4: 39
+    i5: 179
+    i6: 220
+    i7: 244
+    i8: 249
+    i9: 112
+    i10: 192
+    i11: 180
+    i12: 112
+    i13: 0
+    i14: 87
+    i15: 60
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!212 &212000011028990102
 SpriteRenderer:
   m_ObjectHideFlags: 1

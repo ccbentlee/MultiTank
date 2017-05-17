@@ -11,6 +11,8 @@ GameObject:
   - 54: {fileID: 5470280}
   - 65: {fileID: 6594302}
   - 114: {fileID: 114000011901014096}
+  - 114: {fileID: 114000013028513402}
+  - 114: {fileID: 114000012692585224}
   m_Layer: 8
   m_Name: TankGold
   m_TagString: Untagged
@@ -1013,6 +1015,58 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114000012692585224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.095
+  m_SyncRotationAxis: 2
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.01
+  m_SnapThreshold: 2
+  m_InterpolateRotation: 10
+  m_InterpolateMovement: 1
+--- !u!114 &114000013028513402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 202
+    i1: 13
+    i2: 62
+    i3: 20
+    i4: 203
+    i5: 56
+    i6: 186
+    i7: 228
+    i8: 154
+    i9: 205
+    i10: 173
+    i11: 51
+    i12: 235
+    i13: 207
+    i14: 69
+    i15: 112
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!212 &212000013738597218
 SpriteRenderer:
   m_ObjectHideFlags: 1

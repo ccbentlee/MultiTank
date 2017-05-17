@@ -24,6 +24,7 @@ GameObject:
   - 23: {fileID: 23000011622409802}
   - 114: {fileID: 114000012518676480}
   - 54: {fileID: 54000011390207216}
+  - 114: {fileID: 114000012695232180}
   m_Layer: 2
   m_Name: Powerup
   m_TagString: Untagged
@@ -119,3 +120,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useClip: {fileID: 0}
+--- !u!114 &114000012695232180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010293127126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 210
+    i1: 101
+    i2: 115
+    i3: 228
+    i4: 35
+    i5: 149
+    i6: 217
+    i7: 68
+    i8: 201
+    i9: 236
+    i10: 109
+    i11: 65
+    i12: 22
+    i13: 250
+    i14: 10
+    i15: 105
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

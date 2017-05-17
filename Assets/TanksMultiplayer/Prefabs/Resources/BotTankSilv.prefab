@@ -347,6 +347,7 @@ GameObject:
   - 4: {fileID: 4000011607335632}
   - 54: {fileID: 54000010020018720}
   - 65: {fileID: 65000010219151550}
+  - 114: {fileID: 114000014012612112}
   - 114: {fileID: 114000010356570362}
   - 195: {fileID: 195000010656594416}
   m_Layer: 8
@@ -420,7 +421,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013952619036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.5315275, y: 79.96875, z: -39.287045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -1019,6 +1020,38 @@ MonoBehaviour:
   m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 3
+--- !u!114 &114000014012612112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013952619036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 124
+    i1: 91
+    i2: 194
+    i3: 62
+    i4: 3
+    i5: 63
+    i6: 62
+    i7: 196
+    i8: 152
+    i9: 36
+    i10: 66
+    i11: 219
+    i12: 36
+    i13: 110
+    i14: 25
+    i15: 201
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!195 &195000010656594416
 NavMeshAgent:
   m_ObjectHideFlags: 1
