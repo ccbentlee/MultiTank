@@ -169,7 +169,8 @@ namespace TanksMP
         /// Same as in the UNET source, but modified AddPlayer method with more parameters.
         /// </summary>
         public override void OnClientConnect(NetworkConnection conn)
-	    {   
+	    {
+            print("OnClientConnect");
             //if the client connected but did not load the online scene
             if (!clientLoadedScene)
             {
@@ -190,6 +191,7 @@ namespace TanksMP
         /// </summary>
 	    public override void OnClientSceneChanged(NetworkConnection conn)
 	    {          
+            print("OnClientSceneChanged");
 	        //always become ready
             ClientScene.Ready(conn);
 	        if(!autoCreatePlayer)
@@ -230,6 +232,7 @@ namespace TanksMP
         /// </summary>
 	    public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId, NetworkReader extraMessageReader)
 	    {   
+            print("OnServerAddPlayer");
             //read the user message
 	        JoinMessage message = null;
 	        if (extraMessageReader != null)
