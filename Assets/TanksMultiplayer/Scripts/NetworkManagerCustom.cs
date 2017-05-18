@@ -100,7 +100,7 @@ namespace TanksMP
             discovery.StartAsClient();
 
             //wait few seconds for broadcasts to arrive
-            yield return new WaitForSeconds(8);
+            yield return new WaitForSeconds(1);
 
             //we haven't found a match, open our own
             if(discovery.running)
